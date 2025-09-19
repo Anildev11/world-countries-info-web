@@ -1,7 +1,7 @@
 # world-countries-info-web
 🌍 A responsive web app  ....frontend project to explore data of 250+ countries (flags, capitals, currencies, regions) using the REST Countries API, with search, filters, by region
 
-![Light Mode Home](<img width="1884" height="890" alt="Screenshot 2025-09-19 153755" src="https://github.com/user-attachments/assets/1fe47d0f-af6e-4595-b974-03a4aac628b5" />)
+![image alt](<img width="1884" height="890" alt="Screenshot 2025-09-19 153755" src="https://github.com/user-attachments/assets/1fe47d0f-af6e-4595-b974-03a4aac628b5" />)
 
 ![Dark Mode Home](<img width="1885" height="898" alt="Screenshot 2025-09-19 153836" src="https://github.com/user-attachments/assets/e128684f-32e0-41ae-aa75-e51bc398f29c" />)
 
