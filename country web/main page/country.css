@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    --background-color: white;
+    --text-color:black;
+    --elements-color:white;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+body.dark {
+  --background-color: hsl(220, 10%, 8%);    
+  --elements-color: hsl(220, 12%, 14%);      
+  --text-color: hsl(0, 0%, 95%); 
+}
+.header-container {
+    background: var(--elements-color);
+    color: var(--text-color);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.34);
+    padding-inline: 1.5rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.heading{
+    text-decoration: none;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: var(--text-color);
+
+}
+
+.back-btn {
+
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    color: inherit;
+    background: var(--elements-color);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.331);
+    padding-inline: 1.5rem;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+main {
+    margin-top: 50px;
+}
+
+.country-details-container{
+    max-width: 1200px;
+    margin-inline: auto ;
+}
+
+.country-details {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    margin-top: 64px;
+}
+
+.country-details img {
+    width: 40%;
+
+}
+
+.country-info-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    max-height: 180px;
+    flex-wrap: wrap;
+    column-gap: 68px;
+}
+
+.country-info-box p {
+    margin: 0;
+}
+.border-country{
+    margin-top: 48px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.border-country a{
+    padding: 4px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: inherit;
+    background: var(--elements-color);
+    color: var(--text-color);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.219);
+    padding-inline: 1.5rem;
+    margin-inline: 4px;
+    font-size: 14px;
+}
+
+@media(max-width:840px) {
+    .country-details {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 32px;
+        gap: 16px;
+    }
+
+    .country-info-box {
+        display: block;
+        max-height: unset;
+    }
+
+    .country-info-box p {
+        margin: 16px;
+    }
+
+    .country-details img {
+        width: 90%;
+        max-width: 500px;
+        margin-left: 12px;
+    }
+
+    .title {
+        font-weight: 800;
+        font-size: 16px;
+        color: #222;
+    }
+
+    .header-content p {
+        font-size: 12px;
+    }
+    .country-details h1{
+        margin-left: 13px;
+    }
+}
